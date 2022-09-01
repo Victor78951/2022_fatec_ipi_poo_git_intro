@@ -66,9 +66,9 @@ public class Empregado{
 
     Comandos
     git status -s
-    git add <nome do arquivo.>
+    git add <nome do arquivo.> / git add *java
     git log
     git commit -m "colocar um texto"
     javac*.java
-    
+    javac -source 8 -target 8 *.java
 */
