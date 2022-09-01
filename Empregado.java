@@ -56,19 +56,3 @@ public class Empregado{
         this.idade = idade;
     }
 }
-
-/*  O encapsulador é o privete
-    Get e Set são metodos
-    comitir OBS: não pode falar cimitar
-    tracked & untracked
-    Transporte de untracked para tracked fica "A" e fica verde, pois esta stade.
-    "M" significa Modifield
-
-    Comandos
-    git status -s
-    git add <nome do arquivo.> / git add *java
-    git log
-    git commit -m "colocar um texto"
-    javac*.java
-    javac -source 8 -target 8 *.java
-*/
