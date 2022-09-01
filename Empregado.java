@@ -13,6 +13,26 @@ public class Empregado{
         return tipo;
     }
 
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+    public void setComissao(double comissao) {
+        this.comissao = comissao;
+    }
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+    public double getComissao() {
+        return comissao;
+    }
+    public double getBonus() {
+        return bonus;
+    }
+
     public double calcularSalario(){
         if (tipo == 1)
             return salario;
@@ -47,5 +67,8 @@ public class Empregado{
     Comandos
     git status -s
     git add <nome do arquivo.>
-
+    git log
+    git commit -m "colocar um texto"
+    javac*.java
+    
 */
