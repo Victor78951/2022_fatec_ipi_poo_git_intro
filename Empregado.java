@@ -6,6 +6,13 @@ public class Empregado{
     private double comissao;
     private double bonus;
 
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+    public int getTipo() {
+        return tipo;
+    }
+
     public double calcularSalario(){
         if (tipo == 1)
             return salario;
@@ -36,4 +43,9 @@ public class Empregado{
     tracked & untracked
     Transporte de untracked para tracked fica "A" e fica verde, pois esta stade.
     "M" significa Modifield
+
+    Comandos
+    git status -s
+    git add <nome do arquivo.>
+
 */
